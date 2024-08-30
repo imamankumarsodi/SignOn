@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EditJobDescrptionTableViewCell" customModule="SignOn" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sCk-AH-CIG">
+                        <rect key="frame" x="8" y="8" width="304" height="183.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Manimg" translatesAutoresizingMaskIntoConstraints="NO" id="4Pd-5d-aAU">
+                                <rect key="frame" x="10" y="8" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="24s-s1-v28"/>
+                                    <constraint firstAttribute="width" constant="40" id="HYa-Bk-zWr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naveen Gupta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6a1-Dn-Cds">
+                                <rect key="frame" x="60" y="8" width="100.5" height="19"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <color key="textColor" red="0.074509803920000006" green="0.55294117649999996" blue="0.80132988719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Manager" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wa-gi-oix">
+                                <rect key="frame" x="65" y="29" width="73.5" height="12"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_user_man_profile" translatesAutoresizingMaskIntoConstraints="NO" id="TAD-zN-exj">
+                                <rect key="frame" x="197" y="5.5" width="14" height="16"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 minute ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xo-rz-xNV">
+                                <rect key="frame" x="217" y="6" width="70" height="14.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="0.074509803920000006" green="0.55294117649999996" blue="0.80132988719999998" alpha="0.67444349319999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJn-6Z-P3c">
+                                <rect key="frame" x="9" y="64" width="265" height="71.5"/>
+                                <string key="text">The stack view provides a streamlined interface for laying out a collection of views in either a columnThe stack view provides a streamlined interface for laying out a collection of views in either a columnThe stack view provides a streamlined interface for laying out a collection of views in either a column</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsl-AY-tGM">
+                                <rect key="frame" x="3" y="145.5" width="298" height="35"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="F1J-vq-I5h">
+                                        <rect key="frame" x="0.0" y="0.0" width="298" height="35"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KqN-v6-oE9">
+                                                <rect key="frame" x="0.0" y="0.0" width="97.5" height="35"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Like" image="likeiconnew">
+                                                    <color key="titleColor" red="0.074509803920000006" green="0.55294117649999996" blue="0.80132988719999998" alpha="0.67444349319999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uS-o2-P1U">
+                                                <rect key="frame" x="100.5" y="0.0" width="97" height="35"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Comment" image="commentsicon">
+                                                    <color key="titleColor" red="0.074509803920000006" green="0.55294117649999996" blue="0.80132988719999998" alpha="0.67444349319999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQw-BC-c51">
+                                                <rect key="frame" x="200.5" y="0.0" width="97.5" height="35"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Report" image="notallowedicon">
+                                                    <color key="titleColor" red="0.074509803920000006" green="0.55294117649999996" blue="0.80132988719999998" alpha="0.67444349319999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="MAQ-D3-KsM"/>
+                                    <constraint firstItem="F1J-vq-I5h" firstAttribute="leading" secondItem="gsl-AY-tGM" secondAttribute="leading" id="Y2o-KB-n6M"/>
+                                    <constraint firstAttribute="bottom" secondItem="F1J-vq-I5h" secondAttribute="bottom" id="af7-3F-xcz"/>
+                                    <constraint firstAttribute="trailing" secondItem="F1J-vq-I5h" secondAttribute="trailing" id="idl-Kq-ecC"/>
+                                    <constraint firstItem="F1J-vq-I5h" firstAttribute="top" secondItem="gsl-AY-tGM" secondAttribute="top" id="wVN-VI-Ud4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2xo-rz-xNV" firstAttribute="leading" secondItem="TAD-zN-exj" secondAttribute="trailing" constant="6" id="3Tg-dY-atV"/>
+                            <constraint firstItem="7Wa-gi-oix" firstAttribute="leading" secondItem="4Pd-5d-aAU" secondAttribute="trailing" constant="15" id="6xO-2S-0Zf"/>
+                            <constraint firstItem="6a1-Dn-Cds" firstAttribute="top" secondItem="sCk-AH-CIG" secondAttribute="top" constant="8" id="7rO-dV-d1K"/>
+                            <constraint firstAttribute="bottom" secondItem="gsl-AY-tGM" secondAttribute="bottom" constant="3" id="EXb-hV-iKd"/>
+                            <constraint firstAttribute="trailing" secondItem="2xo-rz-xNV" secondAttribute="trailing" constant="17" id="GJ1-fw-lE7"/>
+                            <constraint firstItem="7Wa-gi-oix" firstAttribute="top" secondItem="6a1-Dn-Cds" secondAttribute="bottom" constant="2" id="GbI-1h-93p"/>
+                            <constraint firstItem="4Pd-5d-aAU" firstAttribute="leading" secondItem="sCk-AH-CIG" secondAttribute="leading" constant="10" id="RBu-at-f0q"/>
+                            <constraint firstItem="4Pd-5d-aAU" firstAttribute="top" secondItem="sCk-AH-CIG" secondAttribute="top" constant="8" id="TqZ-4W-EC2"/>
+                            <constraint firstAttribute="trailing" secondItem="gsl-AY-tGM" secondAttribute="trailing" constant="3" id="YTD-BL-lF9"/>
+                            <constraint firstItem="eJn-6Z-P3c" firstAttribute="leading" secondItem="sCk-AH-CIG" secondAttribute="leading" constant="9" id="dQs-B6-fQX"/>
+                            <constraint firstItem="2xo-rz-xNV" firstAttribute="top" secondItem="sCk-AH-CIG" secondAttribute="top" constant="6" id="eJ5-aZ-x4g"/>
+                            <constraint firstItem="gsl-AY-tGM" firstAttribute="top" secondItem="eJn-6Z-P3c" secondAttribute="bottom" constant="10" id="fPA-cb-VK7"/>
+                            <constraint firstItem="gsl-AY-tGM" firstAttribute="leading" secondItem="sCk-AH-CIG" secondAttribute="leading" constant="3" id="gWi-yT-qgI"/>
+                            <constraint firstItem="2xo-rz-xNV" firstAttribute="top" secondItem="sCk-AH-CIG" secondAttribute="top" constant="6" id="iOn-7l-KTe"/>
+                            <constraint firstItem="6a1-Dn-Cds" firstAttribute="leading" secondItem="4Pd-5d-aAU" secondAttribute="trailing" constant="10" id="kND-f0-zSJ"/>
+                            <constraint firstAttribute="trailing" secondItem="2xo-rz-xNV" secondAttribute="trailing" constant="17" id="lsJ-pH-2Rl"/>
+                            <constraint firstAttribute="trailing" secondItem="eJn-6Z-P3c" secondAttribute="trailing" constant="30" id="oSP-F8-gQa"/>
+                            <constraint firstItem="eJn-6Z-P3c" firstAttribute="top" secondItem="4Pd-5d-aAU" secondAttribute="bottom" constant="16" id="vL3-Du-det"/>
+                            <constraint firstItem="TAD-zN-exj" firstAttribute="centerY" secondItem="2xo-rz-xNV" secondAttribute="centerY" id="wMp-Mj-7Jq"/>
+                            <constraint firstItem="4Pd-5d-aAU" firstAttribute="leading" secondItem="sCk-AH-CIG" secondAttribute="leading" constant="10" id="xdE-6l-kac"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVu-YB-cw9">
+                        <rect key="frame" x="283" y="125" width="25" height="25"/>
+                        <color key="backgroundColor" red="0.71764705880000002" green="0.82352941180000006" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="CAF-sz-J2Z"/>
+                            <constraint firstAttribute="width" constant="25" id="jZO-bX-mWB"/>
+                        </constraints>
+                        <state key="normal" image="edit_small">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sCk-AH-CIG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="QGR-kh-Baz"/>
+                    <constraint firstAttribute="trailing" secondItem="cVu-YB-cw9" secondAttribute="trailing" constant="12" id="UFk-oH-UAt"/>
+                    <constraint firstItem="cVu-YB-cw9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="125" id="XWB-Xv-E5H"/>
+                    <constraint firstAttribute="trailing" secondItem="sCk-AH-CIG" secondAttribute="trailing" constant="8" id="gxS-fc-aaI"/>
+                    <constraint firstItem="sCk-AH-CIG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="kJR-6D-4J9"/>
+                    <constraint firstAttribute="bottom" secondItem="sCk-AH-CIG" secondAttribute="bottom" constant="8" id="rk6-ka-nhr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="28.800000000000001" y="44.07796101949026"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Manimg" width="43" height="43"/>
+        <image name="_user_man_profile" width="14" height="16"/>
+        <image name="commentsicon" width="13" height="11"/>
+        <image name="edit_small" width="14" height="14"/>
+        <image name="likeiconnew" width="12" height="12"/>
+        <image name="notallowedicon" width="12" height="12"/>
+    </resources>
+</document>
